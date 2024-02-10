@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+  
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse" style="background-color: #ddd;  height: 80px;   border: none;">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"   style="color:  blueviolet;">Online Shopping</a>
+          </div>
+
+          <!-- <div class="userName" style="margin-left: 50%; ">
+            <p style="color: blueviolet; size: 150px;">Welcome <span id="user-name"></span></p>
+         </div> -->
+         
+          <div class="collapse navbar-collapse" id="myNavbar">
+           
+            <ul id="links" class="nav navbar-nav navbar-right">
+              <li><a href="login.html" style="color:  blueviolet; font-size: 20px;"> Login</a></li>
+              <li><a href="register.html"  style="color:  blueviolet; font-size: 20px;"> Register</a></li>
+            </ul>
+            <div id="userName" style="margin-left: 40%; ">
+              <p style="color: blueviolet; font-size: 20px;  margin-top: 20px;">Welcome <span id="user-name"></span></p>
+            </div>
+    
+
+          
+
+          <ul  id="usercarts"style="margin-top: -50px;" class="nav navbar-nav navbar-right">
+            
+          <li class="shopping_cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="badge"></span>
+
+            <div class="carts_products">
+                 <div></div>
+                <a href="cartsproducts.html">View All Products</a> 
+          </div>
+        </li>
+
+        <li><a href="login.html" id="logout">Log Out</a></li>
+      </ul>  
+
+
+
+
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- ******************************************************************************************************** -->
+      <!-- <div class="search-box">
+        <select style="width: 50%; height: 45px; font-size: 15px; "  class="custom-select form-control m-2 search  ">
+            <option selected>Search by Name</option>
+            <option value="1">Search by Category</option>
+          </select>
+        <input style="width: 50%; height: 45px; margin-left: 20px;" type="text" placeholder="Search" class="form-control m-2 search">
+    </div> -->
+
+    <div class="search-box">
+      <select style="width: 50%; height: 45px; font-size: 15px; " class="custom-select m-2">
+          <option selected>Search by Name</option>
+          <option value="1">Search by Category</option>
+        </select>
+      <input style="width: 50%; height: 45px; margin-left: 20px;" type="text" placeholder="Search" class="form-control m-2 search">
+  </div>
+
+
+    <!-- *************************************************************************************************************** -->
+    <section>
+    <div class="container">
+      <div class="products">
+
+          
+      </div>
+  </div>
+</section>
+
+   <!-- <p style="background-color: whitesmoke; color: blueviolet; font-size: 15px; height: 30px; border-radius: 30%; text-align: center; width: 50px;  margin-left: 30px;"></p> -->
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
+
